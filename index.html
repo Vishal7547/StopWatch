@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="watchDesign.css">
+</head>
+<body>
+<h1 class="hum1">Stopwatch</h1>
+    <div class="head">
+        <div class="time">
+         <span class="a v" id="hr">00</span>
+         <span class="s v">hr :</span>
+
+         <span class="a v" id="min">00</span>
+         <span class="s v">min :</span>
+
+         <span class="a v" id="sec">00</span>
+         <span class="s v">sec </span>
+        </div>
+        <div class="btn">
+         <button class="start btn1" onclick="startTime()">start</button>
+         <button class="stop btn1" onclick="stopTime()">stop</button>
+         <button class="reset btn1" onclick="resetTime()">reset</button>
+        </div>
+    </div>
+    <script src="watchCalculation.js"></script>
+</body>
+</html>
